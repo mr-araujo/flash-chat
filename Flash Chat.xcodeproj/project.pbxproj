@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB6ECD78267AA1A600CCC07A /* Flash_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6ECD77267AA1A600CCC07A /* Flash_ChatApp.swift */; };
-		EB6ECD7A267AA1A600CCC07A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6ECD79267AA1A600CCC07A /* ContentView.swift */; };
+		EB6ECD78267AA1A600CCC07A /* FlashChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6ECD77267AA1A600CCC07A /* FlashChatApp.swift */; };
+		EB6ECD7A267AA1A600CCC07A /* FlashChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6ECD79267AA1A600CCC07A /* FlashChatView.swift */; };
 		EB6ECD7C267AA1A800CCC07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6ECD7B267AA1A800CCC07A /* Assets.xcassets */; };
 		EB6ECD7F267AA1A800CCC07A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6ECD7E267AA1A800CCC07A /* Preview Assets.xcassets */; };
+		EBCA8EE9267D3D25004F7D0C /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA8EE8267D3D25004F7D0C /* Color+Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB6ECD74267AA1A600CCC07A /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB6ECD77267AA1A600CCC07A /* Flash_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flash_ChatApp.swift; sourceTree = "<group>"; };
-		EB6ECD79267AA1A600CCC07A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB6ECD77267AA1A600CCC07A /* FlashChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatApp.swift; sourceTree = "<group>"; };
+		EB6ECD79267AA1A600CCC07A /* FlashChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatView.swift; sourceTree = "<group>"; };
 		EB6ECD7B267AA1A800CCC07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6ECD7E267AA1A800CCC07A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6ECD80267AA1A800CCC07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCA8EE8267D3D25004F7D0C /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,12 @@
 		EB6ECD76267AA1A600CCC07A /* Flash Chat */ = {
 			isa = PBXGroup;
 			children = (
-				EB6ECD77267AA1A600CCC07A /* Flash_ChatApp.swift */,
-				EB6ECD79267AA1A600CCC07A /* ContentView.swift */,
+				EBCA8EEC267D4912004F7D0C /* View */,
+				EB6ECD77267AA1A600CCC07A /* FlashChatApp.swift */,
 				EB6ECD7B267AA1A800CCC07A /* Assets.xcassets */,
 				EB6ECD80267AA1A800CCC07A /* Info.plist */,
 				EB6ECD7D267AA1A800CCC07A /* Preview Content */,
+				EBCA8EE8267D3D25004F7D0C /* Color+Custom.swift */,
 			);
 			path = "Flash Chat";
 			sourceTree = "<group>";
@@ -67,6 +70,14 @@
 				EB6ECD7E267AA1A800CCC07A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBCA8EEC267D4912004F7D0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB6ECD79267AA1A600CCC07A /* FlashChatView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6ECD7A267AA1A600CCC07A /* ContentView.swift in Sources */,
-				EB6ECD78267AA1A600CCC07A /* Flash_ChatApp.swift in Sources */,
+				EB6ECD7A267AA1A600CCC07A /* FlashChatView.swift in Sources */,
+				EBCA8EE9267D3D25004F7D0C /* Color+Custom.swift in Sources */,
+				EB6ECD78267AA1A600CCC07A /* FlashChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
