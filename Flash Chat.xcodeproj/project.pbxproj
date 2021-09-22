@@ -12,6 +12,10 @@
 		EB6ECD7C267AA1A800CCC07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6ECD7B267AA1A800CCC07A /* Assets.xcassets */; };
 		EB6ECD7F267AA1A800CCC07A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6ECD7E267AA1A800CCC07A /* Preview Assets.xcassets */; };
 		EBCA8EE9267D3D25004F7D0C /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA8EE8267D3D25004F7D0C /* Color+Custom.swift */; };
+		EBCA8EF0267D4D3B004F7D0C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA8EEF267D4D3B004F7D0C /* RegisterView.swift */; };
+		EBDD89C926FBC2E60075BBB3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD89C826FBC2E60075BBB3 /* LoginView.swift */; };
+		EBDD89CB26FBC3450075BBB3 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD89CA26FBC3450075BBB3 /* FormView.swift */; };
+		EBDD89CD26FBD5030075BBB3 /* TextFieldStyle+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD89CC26FBD5030075BBB3 /* TextFieldStyle+Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EB6ECD7E267AA1A800CCC07A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6ECD80267AA1A800CCC07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBCA8EE8267D3D25004F7D0C /* Color+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
+		EBCA8EEF267D4D3B004F7D0C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EBDD89C826FBC2E60075BBB3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EBDD89CA26FBC3450075BBB3 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		EBDD89CC26FBD5030075BBB3 /* TextFieldStyle+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldStyle+Custom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 				EB6ECD80267AA1A800CCC07A /* Info.plist */,
 				EB6ECD7D267AA1A800CCC07A /* Preview Content */,
 				EBCA8EE8267D3D25004F7D0C /* Color+Custom.swift */,
+				EBDD89CC26FBD5030075BBB3 /* TextFieldStyle+Custom.swift */,
 			);
 			path = "Flash Chat";
 			sourceTree = "<group>";
@@ -76,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				EB6ECD79267AA1A600CCC07A /* FlashChatView.swift */,
+				EBCA8EEF267D4D3B004F7D0C /* RegisterView.swift */,
+				EBDD89C826FBC2E60075BBB3 /* LoginView.swift */,
+				EBDD89CA26FBC3450075BBB3 /* FormView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,8 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBDD89CB26FBC3450075BBB3 /* FormView.swift in Sources */,
 				EB6ECD7A267AA1A600CCC07A /* FlashChatView.swift in Sources */,
+				EBCA8EF0267D4D3B004F7D0C /* RegisterView.swift in Sources */,
 				EBCA8EE9267D3D25004F7D0C /* Color+Custom.swift in Sources */,
+				EBDD89CD26FBD5030075BBB3 /* TextFieldStyle+Custom.swift in Sources */,
+				EBDD89C926FBC2E60075BBB3 /* LoginView.swift in Sources */,
 				EB6ECD78267AA1A600CCC07A /* FlashChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
